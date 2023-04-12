@@ -1,0 +1,374 @@
+*{
+  margin: 0%;
+  padding: 0%;
+   font-family: sans-serif;
+}
+body{
+ width: 1423px;
+  background-color: #000000;
+  position: relative;
+}
+.container{
+  margin-bottom: 0;
+}
+.topbar{
+  display: flex;
+  /* padding: 18px 32px; */
+  height: 90px;
+  background-color:#00A74A ;
+  position: fixed;
+  width: 1423px;
+  align-items: center;
+  margin-top: -90px;
+  padding: 0px 32px;
+  margin-bottom: 10px;
+}
+.topbar img{
+  width: 135px;
+}
+.topbar .navbar{
+  display: flex;
+  align-items: center;
+  
+  
+}
+.topbar .navbar .list{
+  margin: 0px 0px;
+  /* position: fixed; */
+}
+.topbar .navbar .list ul{
+  position: fixed;
+  top: 0px;
+  left: 240px;
+  column-count: 4;
+  list-style: none;
+  width: 700px;
+  height: 90px;
+  margin-top: 25px;
+  
+}
+.topbar .navbar .list ul li{
+  /* display:inline; */
+  width: 120px;
+  margin: 0px 0px;
+  column-count: 4;
+  height: 90px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  white-space: nowrap;
+  
+  
+}
+.topbar .navbar .list ul li a{
+ text-decoration:none;
+ color:#ffffff;
+ font-size: 13px;
+ font-weight: 800;
+ height: 90px;
+ padding-top: 0px;
+ margin-top: 0px;
+ 
+}
+.topbar .navbar ul li a:hover,
+.topbar .navbar ul li a:active,
+.topbar .navbar ul li a:focus{
+  color: #000000;
+
+}
+.topbar .navbar .social-buttons{
+  position: fixed;
+  right: 50px;
+  column-count: 6;
+  
+  
+}
+.topbar .navbar .social-buttons ul{
+  list-style: none;
+  padding: 0px 10px;
+
+}
+.topbar .navbar .social-buttons ul li a{
+  font-size: 20px;
+  color: #ffffff;
+  
+}
+.topbar .navbar .social-buttons ul li a :hover{
+color: #000000;
+}
+.social-buttons ul li a .tooltip{ 
+  position: absolute;
+  background-color: #ffffff;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  top: 30px;
+  left: 300px;
+  opacity: 0;
+  transition: 0.5s;
+  
+}
+.social-buttons ul li a :hover.tooltip{
+opacity: 1;
+ } 
+
+.section{
+  background-image: url(img/sprite-hpg-herobottle.png);
+  background-position: 49px;
+  background-size: 542px;
+  background-repeat: no-repeat;
+  height: 551.7px;
+  width: 1423px;
+  margin-top: 90px;
+ 
+  
+}
+.section h1 {
+  margin-bottom: 8px;
+  font-size: 93px;
+  color: #00A74A;
+  width: 592.91px;
+  height: 176px;
+  font-weight: 750;
+  padding-top: 40px;
+  margin-left: 0;
+  padding-left: 590px;
+}
+.section img {
+  width: 592.5px;
+  height: 85.7px;
+  padding-left: 590px;
+  padding-top: 35px;
+}
+.section .button{
+  padding-left: 590px;
+  padding-top: 45px;
+}
+.section .button button {
+  background-color: #00A74A;
+  font-size: 16px;
+  border: none;
+  width: 187px;
+  height: 44px;
+  color: #ffffff;
+  padding-left: 2px;
+  padding-top: 3px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.section .button button:hover{
+  background-color: #000000;
+}
+.feeds{
+  height: 1000px;
+  width: 1423px;
+  background-color: #ffffff;
+  display: flexbox;
+  margin-left: 0;
+}
+
+.feeds .article {
+  height: 370px;
+  width: 100%;
+  padding-left: 0px;
+  padding-top: 20px;
+  display: flexbox;
+  margin-bottom: 8px;
+}
+.feeds .article img{
+  width: 521px;
+  height: 294px;
+  padding-left: 70px;
+  padding-top: 40px;
+  margin-bottom: 0px;
+}
+.article .play .fa{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.article img:hover{
+  cursor: pointer;
+}
+.feeds .article  .play{
+  position: absolute;
+  top: 720px;
+  left: 270px;
+  width: 74px;
+  height: 74px;
+}
+
+
+.feeds .article p {
+  font-size: 64px;
+  color: #000000;
+  padding-left: 655px;
+  margin-top: -330px;
+  width: 635px;
+  height: 64px;
+  font-weight: 600;
+}
+.feeds .article h2{
+  font-size: 30px;
+  color: #000000;
+  width: 521px;
+  height: 173px;
+  margin-left:0px ;
+  margin-top: 0px;
+  padding-left: 660px;
+  padding-top: 15px;
+}
+.feeds .article button {
+  height: 50px;
+  width: 115px;
+  background-color: #ffd100;
+  padding-left: 37px;
+  padding-top: 10px;
+  margin-top:15px;
+  margin-left: 663px;
+  color: black;
+  text-decoration: none;
+  font: size 13px;
+  font-weight: 600;
+  display: flex;
+  border: none;
+}
+.feeds .article button:hover{
+  background-color: grey;
+}
+.feeds  .art{
+  background-image: url(img/all-clear-from-here.png);
+  background-repeat: no-repeat;
+  background-size: 635px;
+  background-position-x: 700px;
+  background-position-y :12px;
+margin-top: 0px;
+margin-left: 0px;
+padding-left: 0px;
+padding-top:0px;
+height: 452px;
+width: 100%;
+margin-bottom: 8px;
+
+}
+.feeds  .art p{
+  width: 711px;
+  height: 240px;
+  color: rgb(0, 150,57);
+  font-size: 64px;
+  font-weight: 600;
+  padding-left: 100px;
+padding-top: 50px;
+margin-top: 0px;
+
+}
+.feeds .art img{
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 640px;
+  height: 438px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  border-left: 0;
+ position: absolute;
+ left: 700px;
+ top: 100px;
+ 
+}
+img{
+  border-left: 0;
+}
+.footer{
+  width: 1423px;
+  height: 440px;
+  background-color: #00A74A;
+  margin-top: -158px;
+}
+.footer .logo img{
+  width: 151px;
+  height: 57px;
+  padding-left: 215px;
+  margin-bottom: -146px;
+}
+.contents{
+ display: inline-flexbox;
+}
+.contents p{
+  padding-left: 480px;
+  padding-top: 35px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  
+}
+ .contents ul{
+  column-count: 30;
+  
+  list-style: none;
+ padding-left: 478px;
+ margin-top: 50px;
+ }
+ .contents ul li{
+ 
+ }
+ .contents ul li a{
+font-size: 24px;
+color:whitesmoke;
+text-decoration: none;
+ }
+ .contents ul li a:hover{
+  font-size: 30px;
+ }
+ .contents .para{
+  padding-left: 370px;
+  margin-top: -148px;
+ }
+ .contents .para a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  padding-bottom: 1px;
+ }
+ .contents .para a:hover{
+  text-decoration: underline;
+ }
+.lastbar
+{
+  text-align: center;
+  color: white;
+  padding: 50px 0 20px 0;
+}
+.lastbar a
+{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+.lastbar a:hover{
+  text-decoration: underline;
+}
+.lastbar p
+{
+  padding-bottom: 15px;
+}
+ .lastbar li{
+  display: inline;
+  padding: 0 5px;
+  text-align: center;
+  border-right: 1px solid white;
+ }
+ .lastbar li a{
+  font-weight: 600;
+  font-size: 15px;
+}
+ .lastbar li a:hover{
+  color: #000000;
+  text-decoration: none;
+ }
+
+ .rule-border
+ {
+  border : none;
+ }
